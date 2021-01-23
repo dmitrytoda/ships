@@ -15,6 +15,7 @@ Most publicly available image-processing networks have been trained on regular p
 #### Algorithms:
 * transfer learning on VGG16 and Inception v3 CNNs
 * for each pretrained CNN, implemented and trained 3 classifiers using different techniques of dealing with imbalanced classes (baseline, class weights and data augmentation)
+* all the code is inside `ships.ipynb`
 
 #### Findings:
 * the best solution was a combination of VGG16 + classifier with data augmentation
